@@ -873,7 +873,7 @@ public class JudgementHandUtilTests {
         hand6[2] = new Card(3, 3);
         hand6[3] = new Card(2, 4);
         hand6[4] = new Card(3, 5);
-        handsJudgeList.add(new HandsJudge(hand6, true));
+        handsJudgeList.add(new HandsJudge(hand6, false));
         
         Card[] hand7 = new Card[HANDS_SIZE];
         hand7[0] = new Card(2, 2);
@@ -881,7 +881,7 @@ public class JudgementHandUtilTests {
         hand7[2] = new Card(4, 4);
         hand7[3] = new Card(1, 5);
         hand7[4] = new Card(4, 6);
-        handsJudgeList.add(new HandsJudge(hand7, true));
+        handsJudgeList.add(new HandsJudge(hand7, false));
         
         Card[] hand8 = new Card[HANDS_SIZE];
         hand8[0] = new Card(3, 3);
@@ -889,7 +889,7 @@ public class JudgementHandUtilTests {
         hand8[2] = new Card(1, 5);
         hand8[3] = new Card(4, 6);
         hand8[4] = new Card(1, 2);
-        handsJudgeList.add(new HandsJudge(hand8, true));
+        handsJudgeList.add(new HandsJudge(hand8, false));
         
         Card[] hand9 = new Card[HANDS_SIZE];
         hand9[0] = new Card(4, 4);
@@ -897,7 +897,7 @@ public class JudgementHandUtilTests {
         hand9[2] = new Card(2, 6);
         hand9[3] = new Card(3, 2);
         hand9[4] = new Card(1, 3);
-        handsJudgeList.add(new HandsJudge(hand9, true));
+        handsJudgeList.add(new HandsJudge(hand9, false));
         
         Card[] hand10 = new Card[HANDS_SIZE];
         hand10[0] = new Card(1, 5);
@@ -905,7 +905,7 @@ public class JudgementHandUtilTests {
         hand10[2] = new Card(1, 2);
         hand10[3] = new Card(1, 3);
         hand10[4] = new Card(1, 1);
-        handsJudgeList.add(new HandsJudge(hand10, true));
+        handsJudgeList.add(new HandsJudge(hand10, false));
         
         return handsJudgeList;
     }
